@@ -1,0 +1,3 @@
+>>> Warning 202 "C:\Android\Thub\Proyecto1\Proyecto1.h" Line 14(5,8): Variable never used:   rs232_errors
+      Memory usage:   ROM=15%      RAM=7% - 15%
+      0 Errors,  1 Warnings.

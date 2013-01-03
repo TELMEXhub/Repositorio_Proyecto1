@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">LedV0</string>
+    <string name="hello_world">Encendiendo un led</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="title_activity_main">Led</string>
+    <string name="bluetooth">Conectarse a</string>
+    <string name="On">Apagar</string>
+    <string name="Off">Encender</string>
+    <string name="vacio">
+ </string>
+    <string name="Desconexion">Desconectar</string>
+</resources>

@@ -1,0 +1,11 @@
+ÀÄProyecto1
+   ÃÄMAIN  0/46  Ram=0
+   ³  ÀÄ??0??
+   ÀÄRDA_isr  0/116  Ram=7
+      ÃÄ@GETCH_BIU_1  (Inline)  Ram=0
+      ÃÄ@const164  0/6  Ram=0
+      ÃÄ@const165  0/6  Ram=0
+      ÃÄstrcmp  0/68  Ram=5
+      ÃÄstrcmp  0/68  Ram=5
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÀÄ@delay_ms1  0/21  Ram=1

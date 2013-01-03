@@ -1,0 +1,82 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+005     puerto_a
+005.0   RA0
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     rs232_errors
+029-02A strtok.save
+02B-02F RDA_isr.entrada
+030-032 RDA_isr.led1
+033-035 RDA_isr.led2
+036     i
+037-038 strcmp.s1
+037     @delay_ms1.P1
+037     RDA_isr.@SCRATCH1
+038     RDA_isr.@SCRATCH2
+039-03A strcmp.s2
+03B     strcmp.@SCRATCH1
+055     TRISA
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0081  @delay_ms1
+009D  @GETCH_BIU_1
+003D  strcmp
+0096  RDA_isr
+0031  @const164
+0037  @const165
+010A  MAIN
+010A  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Android\Thub\Proyecto1\
+
+Project Files:
+    Proyecto1.c
+    Proyecto1.h
+    ..\..\..\Program Files (x86)\PICC\devices\16F628A.h
+    ..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+
+Units:
+    C:\Android\Thub\Proyecto1\Proyecto1 (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Proyecto1.err
+    Ext Symbols: Proyecto1.esym
+    INHX8:       Proyecto1.hex
+    Symbols:     Proyecto1.sym
+    List:        Proyecto1.lst
+    Debug/COFF:  Proyecto1.cof
+    Project:     Proyecto1.PJT
+    Call Tree:   Proyecto1.tre
+    Statistics:  Proyecto1.sta

@@ -1,0 +1,53 @@
+
+ROM used: 312 (15%)
+          312 (15%) including unused fragments
+
+          0 Average locations per line
+          2 Average locations per statement
+
+RAM used: 16 (7%) at main() level
+          33 (15%) worst case
+
+Stack used: 2 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   45    28  19  Proyecto1.c
+   16     0   0  Proyecto1.h
+  222     0   0  ..\..\..\Program Files (x86)\PICC\devices\16F628A.h
+  409   121  81  ..\..\..\Program Files (x86)\PICC\drivers\string.h
+   28     0   0  ..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+----- -----
+  748   149 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   7   1             @delay_ms1
+ Inline        0             @GETCH_BIU_1
+0     68  22   5   231  6.6  strcmp
+0    116  37   7   700  5.9  RDA_isr
+0      6   2   0   861  6.1  @const164
+0      6   2   0             @const165
+0     46  15   0   152  2.2  MAIN
+
+Program metrics:
+    Functions               4
+    Statements              149
+    Comments                217
+    Volume (V)              2548
+    Difficilty (D)          20.7
+    Effort to implement (E) 52698
+    Time to implement (T)   49 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   8
+    Maintainability (MI)    33
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00030    45  0  
+00031-007FF   263  1736  
+
+
+

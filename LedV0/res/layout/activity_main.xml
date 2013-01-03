@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9e1da0" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world"
+        android:textColor="#ded6de"
+        android:textSize="36sp"
+        tools:context=".MainActivity" />
+
+    <FrameLayout
+        android:id="@+id/FrameLed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" >
+
+        <ToggleButton
+            android:id="@+id/Led1"
+            android:layout_width="232dp"
+            android:layout_height="278dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ledcamaleon1"
+            android:text="@string/vacio"
+            android:textOff="@string/vacio"
+            android:textOn="@string/vacio" />
+
+    </FrameLayout>
+
+</RelativeLayout>
